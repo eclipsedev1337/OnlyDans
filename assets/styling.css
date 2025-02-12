@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(240deg, #000000 40%, #0d1b2a 70%);
+    color: white;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 1200px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+a, button, input {
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover, button:hover {
+    opacity: 0.8;
+}
